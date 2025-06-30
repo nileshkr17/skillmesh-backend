@@ -46,4 +46,11 @@ public class MatchmakingController {
                 .orElseGet(() -> ResponseEntity.status(204).body("No match yet"));
     }
 
+    // Endpoint to join all seeded players to the matchmaking pool
+    @PostMapping("/join-seeded")
+    public ResponseEntity<String> joinAllSeededPlayers() {
+        playerRepository.findAll().forEach(matchmakingService::join);
+        return ResponseEntity.ok("All seeded players joined the matchmaking pool.");
+    }
+
 }
