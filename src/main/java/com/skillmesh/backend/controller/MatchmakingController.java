@@ -79,6 +79,8 @@ public class MatchmakingController {
     // Health check endpoint for API alive status
     @GetMapping("/alive")
     public ResponseEntity<String> alive() {
+        //logs
+        System.out.println("API is alive check at " + System.currentTimeMillis());
         return ResponseEntity.ok("API is alive");
     }
 
