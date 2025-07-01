@@ -8,6 +8,7 @@ com/skillmesh/backend/model/Player.class
 com/skillmesh/backend/repository/PlayerRepository.class
 com/skillmesh/backend/controller/MatchmakingController.class
 com/skillmesh/backend/service/MatchmakingEngine.class
+com/skillmesh/backend/config/GlobalCorsConfig.class
 com/skillmesh/backend/repository/MatchRepository.class
 com/skillmesh/backend/SkillMeshApplication.class
 com/skillmesh/backend/model/Match$MatchBuilder.class

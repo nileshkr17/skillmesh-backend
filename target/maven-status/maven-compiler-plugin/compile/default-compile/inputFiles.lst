@@ -1,4 +1,5 @@
 /Users/I528966/Desktop/BITS/Prep-java/skillmesh-backend/src/main/java/com/skillmesh/backend/SkillMeshApplication.java
+/Users/I528966/Desktop/BITS/Prep-java/skillmesh-backend/src/main/java/com/skillmesh/backend/config/GlobalCorsConfig.java
 /Users/I528966/Desktop/BITS/Prep-java/skillmesh-backend/src/main/java/com/skillmesh/backend/configuration/SwaggerConfig.java
 /Users/I528966/Desktop/BITS/Prep-java/skillmesh-backend/src/main/java/com/skillmesh/backend/controller/MatchmakingController.java
 /Users/I528966/Desktop/BITS/Prep-java/skillmesh-backend/src/main/java/com/skillmesh/backend/model/GameMode.java
