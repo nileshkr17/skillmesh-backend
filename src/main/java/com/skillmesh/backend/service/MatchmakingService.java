@@ -47,5 +47,15 @@ public class MatchmakingService {
             playerRepository.save(p);
         });
     }
+
+    // Returns true if player is in any region queue
+    public boolean isInPool(String playerId) {
+        return engine.isInPool(playerId);
+    }
+
+    // Returns all players currently in all region queues
+    public List<Player> getPoolPlayers() {
+        return engine.getAllPlayersInPool();
+    }
 }
 
